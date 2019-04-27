@@ -1,9 +1,9 @@
 <?php
-include_once("../phpGrid_Lite/conf.php");      
+include_once("../phpGrid/conf.php");      
 include_once('../inc/head.php');
 ?>
 
-<h1>My Custom CRM</h1>
+<h1>Cornman Tech CRM</h1>
 
 <?php
 $_GET['currentPage'] = 'customerwon';
