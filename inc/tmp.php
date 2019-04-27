@@ -7,7 +7,7 @@ require_once("phpGrid/conf.php");
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title> | Custom CRM</title>
+<title> | Cornman Tech CRM</title>
 <style>
 body {
    padding: 0 15px;
@@ -48,7 +48,7 @@ body {
 </head>
 <body>
 
-<h1>Custom CRM</h1>
+<h1>Cornman Tech CRM</h1>
 <div id="menu">
     <ul>
         <li><a href="dashboard.php" class="active">Dashboard</a></li>

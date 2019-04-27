@@ -1,16 +1,16 @@
 <?php
-include_once("../phpGrid_Lite/conf.php");      
+include_once("../phpGrid/conf.php");      
 include_once('../inc/head.php');
 ?>
 
-<h1>My Custom CRM</h1>
+<h1>Cornman Tech CRM</h1>
 
 <?php
 $_GET['currentPage'] = 'tasks';
 include_once('../inc/menu.php');
 ?>
 
-<h3><a href="tasks.php">My Current Tasks</a> | My Completed Tasks</h3>
+<h3><a href="tasks.php">Current Tasks</a> | Completed Tasks</h3>
 
 <?php
 $dg = new C_DataGrid("SELECT ID, `Date`, Contact, Todo_Type_ID, Todo_Desc_ID, Task_Status, Task_Update, Sales_Rep, Todo_Due_Date FROM notes", "ID", "notes");

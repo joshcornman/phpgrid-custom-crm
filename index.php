@@ -1,43 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-    <title>
-        PHP FOR BEGINNERS: BUILD YOUR FIRST SIMPLE CRM FROM SCRATCH
-    </title>
+    <title>Cornman Tech CRM</title>
+<link type="text/css" rel="Stylesheet" href="css/style.css" />
+<img src="images/ctechlogo.png" alt="Cornman Tech CRM" height="50" width="200">
 </head>
 <body>
-<h1>PHP FOR BEGINNERS: BUILD YOUR FIRST SIMPLE CRM FROM SCRATCH</h1>
+<h1>Work in progress.. for now I just need it functional</h1>
+<p> I will make it pretty later. -joshua</p>
+<br>
+<br>
 
 <div>
-<p>
-Customer Relationship Management (CRM) is a system that manages customer interactions and data throughout the customer lifecycle between the customer and the company across different channels. 
-</p>
-
-<p>
-In the simple CRM system demo, salespeople can:
-</p>
-
-<ul>
-<li>Access their tasks</li>
-<li>View their leads </li>
-<li>Create new tasks for each lead</li>
-<li>Create new opportunity</li>
-<li>Lose a sale</li>
-</ul>
-
-<p>
-Sales managers will be able to:
-</p>
-
-<ul>
-<li>Manage all customers </li>
-<li>Manage sales team</li>
-<li>View current sales activities</li>
-</ul>
-</div>
-
-<div>
-    <h2>Visit Demo:</h2>
+    <h2>Let's get crack-a-lackin:</h2>
     <div>   
         <a href="sales/tasks.php">Sales</a> | <a href="managers/pipeline.php">Manager</a>
     </div>

@@ -5,19 +5,19 @@ include_once('../inc/head.php');
 $tableName = (isset($_GET['gn']) && $_GET['gn'] !== '') ? $_GET['gn'] : 'users';
 ?>
 
-<h1>My Custom CRM - Sales Pipeline</h1>
+<h1>Cornman Tech CRM - Sales Pipeline</h1>
 
 <section id="subtitle">
-    <h2>Welcome! Manager</h2>
+    <h2>Management Page</h2>
     <div>
-    You can manage your sales team and contacts here.
+    Here you can configure the accounts of your team.
     </div>
     <br />
 </section>
 
 <div id="menu">
     <ul>
-        <li><a href="?gn=users" <?php if($tableName == 'users') echo 'class="active"'; ?>>My Sales Reps</a></li>
+        <li><a href="?gn=users" <?php if($tableName == 'users') echo 'class="active"'; ?>>Salesmen</a></li>
         <li><a href="?gn=notes" <?php if($tableName  == 'notes') echo 'class="active"'; ?>>Tasks</a></li>
         <li><a href="?gn=contact" <?php if($tableName == 'contact') echo 'class="active"'; ?>>Contact</a></li>
     </ul>

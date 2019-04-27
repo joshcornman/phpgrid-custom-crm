@@ -1,16 +1,16 @@
 <?php
-include_once("../phpGrid_Lite/conf.php");      
+include_once("../phpGrid/conf.php");      
 include_once('../inc/head.php');
 ?>
 
-<h1>My Custom CRM</h1>
+<h1>Cornman Tech CRM</h1>
 
 <?php
 $_GET['currentPage'] = 'leads';
 include_once('../inc/menu.php');
 ?>
 
-<h3>My Leads</h2>
+<h3>Leads</h2>
 <?php
 $dg = new C_DataGrid("SELECT id, contact_first, contact_last, company, phone, email, website, status, lead_referral_source, sales_rep, lead_referral_source, date_of_initial_contact, title, industry, background_info, rating, project_type, project_description, budget FROM contact", "id", "contact");
 $dg->set_query_filter(" status = 1 && sales_rep = 1 ")->set_caption('Contact');
