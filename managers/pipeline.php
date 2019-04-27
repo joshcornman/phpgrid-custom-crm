@@ -1,23 +1,20 @@
 <?php
-include_once("../phpGrid_Lite/conf.php");      
+include_once("../phpGrid/conf.php");      
 include_once('../inc/head.php');
 
 $tableName = (isset($_GET['gn']) && $_GET['gn'] !== '') ? $_GET['gn'] : 'users';
 ?>
 
-<h1>My Custom CRM - Sales Pipeline</h1>
+<h1>Cornman Tech CRM</h1>
 
 <section id="subtitle">
-    <h2>Welcome! Manager</h2>
-    <div>
-    You can manage your sales team and contacts here.
-    </div>
+    <h2>Manager Section</h2>
     <br />
 </section>
 
 <div id="menu">
     <ul>
-        <li><a href="?gn=users" <?php if($tableName == 'users') echo 'class="active"'; ?>>My Sales Reps</a></li>
+        <li><a href="?gn=users" <?php if($tableName == 'users') echo 'class="active"'; ?>>Sales Reps</a></li>
         <li><a href="?gn=notes" <?php if($tableName  == 'notes') echo 'class="active"'; ?>>Tasks</a></li>
         <li><a href="?gn=contact" <?php if($tableName == 'contact') echo 'class="active"'; ?>>Contact</a></li>
     </ul>
